@@ -37,6 +37,11 @@ body{
     width: 40px;
     height: 40px;
 }
+.btn:hover{
+    box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5),
+    inset 8px 8px 16px rgba(255, 255, 255, 0.1);
+    
+}
 svg{
     width: 30px;
     height:30px;
@@ -60,7 +65,7 @@ h5{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: -8px auto;
 }
 img{
     width: 180px;
@@ -72,6 +77,7 @@ img{
     text-align: center;
     font-size: 26px;
     font-weight: bold;
+    color: #3b3b3b;
 }
 .nameSing{
     text-align: center;
@@ -94,8 +100,17 @@ img{
     border-radius: 16px;
     padding: 0;
 }
+.time{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+.current-time,.end-time{
+    color: #666;
+    font-size: 14px;
+}
 .control{
-    margin-top: 32px;
+    margin-top: 24px;
     display: flex;
     align-items: center;
     justify-content: space-between;
